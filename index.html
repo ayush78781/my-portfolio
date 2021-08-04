@@ -1,27 +1,127 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <title>Ayush Saxena</title>
-    <link rel="stylesheet" href="css\main.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#1bbc9b" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home for Portfolio</title>
+    <link rel="stylesheet" href="css\styles.css">
 </head>
 
 <body>
-    <header class="site-header">
-        <img class="profile-pic" src="assets\Ayush Saxena.jpg">
-        <div class="site-header-content">
-            <h1>Hi! I am Ayush Saxena. Currently working on my Development and Coding Skills.</h1>
-            <h2>I am in 2nd year of Bachelors in Technology. I aspire to be better Coder.</h2>
-            <h3>My motto is to bring revolution in the society with my <code>Code.</code></h3>
-            <h3>You can connect me over
-                <a class="my-link" href="https://www.linkedin.com/in/ayush-saxena78781">here</a> feel free to ask me anything.
-            </h3>
+    <nav class="navigation container container-center">
+        <div class="nav-brand">IAMDEVELOPER</div>
+        <ul class="list-non-bullets nav-pills">
+            <li class="list-items-inline">
+                <a class="link link-active" href="/">Home</a>
+            </li>
+            <li class="list-items-inline">
+                <a class="link" href="/">Portfolio</a>
+            </li>
+            <li class="list-items-inline">
+                <a class="link" href="/projects.html">Projects</a>
+            </li>
+            <li class="list-items-inline">
+                <a class="link" href="/blogs.html">Blogs</a>
+            </li>
+            <li class="list-items-inline">
+                <a class="link" href="/contact.html">Contact</a>
+            </li>
+        </ul>
+    </nav>
+    <header class="hero">
+        <img class="hero-img" src="\assests\image.svg">
+        <h3 class="hero-heading">Heading inside <span class="decorate">header</span></h3>
+        </spanheader>
+        <section class="sections ow">
+            <div class="container container-center">
+                <h1>About</h1>
+                <p>A computer is a machine that can be programmed to carry out sequences of arithmetic or logical operations automatically. Modern computers can perform generic sets of operations known as programs. These programs enable computers to perform
+                    a wide range of tasks. A computer system is a "complete" computer that includes the hardware, operating system (main software), and peripheral equipment needed and used for "full" operation. This term may also refer to a group of computers
+                    that are linked and function together, such as a computer network or computer cluster.</p>
+            </div>
 
+        </section>
+        <section class="sections">
+            <div class="container conatiner-center">
+                <h1>Technologies</h1>
+                <p>A computer is a machine that can be programmed to carry out sequences of arithmetic or logical operations automatically. Modern computers can perform generic sets of operations known as programs. These programs enable computers to perform
+                    a wide range of tasks. A computer system is a "complete" computer that includes the hardware, operating system (main software), and peripheral equipment needed and used for "full" operation. This term may also refer to a group of computers
+                    that are linked and function together, such as a computer network or computer cluster.</p>
+            </div>
+
+        </section>
+        <section class="sections ow">
+            <div class="container conatiner-center">
+                <h1>Projects</h1>
+                <p>This will have gray background from end to end with some padding</p>
+                <a class="link primary-link" href="/projects.html">See Projects</a>
+            </div>
+
+        </section>
+        <section class="sections">
+            <div class="container conatiner-center">
+                <h1>Blogs</h1>
+                <p>This will have white background from end to end with some padding</p>
+                <a class="link secondary-link" href="/blogs.html">See Projects</a>
+            </div>
+        </section>
+        <div class="container1">
+            <div style="text-align: center;">
+                <h2 class="hero-heading">Let's have a <span class="decorate">Conversation</span> </h2>
+                <p>Swing by for a cup of coffee, or leave us a message:</p>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <img class="hero-img1" src="assests\contact us.svg" alt="contact us" style="width: 100%;">
+                </div>
+                <div class="column">
+                    <form action="/action_page.php">
+                        <label for="fname">First Name</label>
+                        <input type="text" id="fname" name="firstname" placeholder="Your name...">
+                        <label for="lname">Last Name</label>
+                        <input type="text" id="lname" name="lastname" placeholder="Your last name...">
+                        <label for="email">E-mail</label>
+                        <input type="text" id="email" placeholder="Your email...">
+                        <label for="country">Country</label>
+                        <select id="country" name="country">
+                          <option value="india">India</option>
+                          <option value="canada">Canada</option>
+                          <option value="usa">USA</option>
+                        </select>
+                        <label for="subject">Subject</label>
+                        <textarea name="subject" id="subject" placeholder="Pen down your thoughts..." cols="30" rows="10"></textarea>
+                        <input type="submit" value="Submit">
+
+                    </form>
+
+                </div>
+
+            </div>
         </div>
 
-    </header>
+        <footer class="footer">
+            <div class="footer-header">This is my Footer where i will be placing all social links of mine.</div>
+            <ul class="social-links list-non-bullets">
+                <li class="list-items-inline">
+                    <a class="link" href="https://linkedin.com/ayushsaxena">LinkedIn</a>
+                </li>
+                <li class="list-items-inline">
+                    <a class="link" href="https://twitter.com/ayush">Twitter</a>
+                </li>
+                <li class="list-items-inline">
+                    <a class="link" href="/">Instagram</a>
+                </li>
+                <li class="list-items-inline">
+                    <a class="link" href="/">facebook</a>
+                </li>
+                <li class="list-items-inline">
+                    <a class="link" href="https://github.com/ayush78781">Github</a>
+                </li>
+            </ul>
+        </footer>
+
 </body>
 
 </html>
